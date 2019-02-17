@@ -147,12 +147,6 @@ for i in range(h*w):
         
 for i in range(h):
     for y in range(w):
-        print ("|",list1[i*w+w],"|", end = "")
+        print ("|",list1[i*w+w-1],"|", end = "")
     print (end="\n")
     
-#for i in range (h*w):
-#    if ((i+1)%w!=0):
-#      print("|  ",list1[i]," | ",end="")
-#    else :
-#        print("|  ",list1[i]," | ",end="\n")
-        

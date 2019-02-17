@@ -18,8 +18,3 @@ def maxDistance(a,num):
     print (max)
 
 
-print("Please insert the distances you want." )
-a = [int(x) for x in input().split()]
-print(a)
-num = int(input("Give number :"))
-maxDistance(a,num)

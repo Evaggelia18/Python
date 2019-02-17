@@ -43,11 +43,4 @@ def maxSequence(li):
         print ("max = ",max," sub_list2 =",sub_list2)
     else :
         print ("max = ",max," sub_list =",sub_list)
-        #sub_list = sub_list2
-    # print ("max = ",max,"sub_list =",sub_list)
-
-
-
-print("Please insert numbers.")
-li = [int(x) for x in input().split()]
-maxSequence(li)
+        
