@@ -136,17 +136,17 @@ for i in range (h*w):
                  b[i]=b[i]+1
             if (list1[i-w-1]=="BOOM"):
                  b[i]=b[i]+1
-                 
-                 
-for i in range(h*w):                 
-    #Tοποθετει τους αριθμους απο τις if στα κελια και οσα εχουν το 0 τα αλλαζε σε κενο
+    #Τοποθετει τα δεδομενα στα κελια             
     if (list1[i]=="   "):
         list1[i]=b[i]
     if (list1[i]==0):
-        list1[i]="   "  
-        
-for i in range(h):
-    for y in range(w):
-        print ("|",list1[i*w+w-1],"|", end = "")
-    print (end="\n")
+        list1[i]="   " 
+
+                  
+j=0
+for i in range(h*w):
+    print ("|",list1[i],"|", end = " ")
+    j=j+1
+    if ((j%w)==0) :
+       print (end="\n") 
     
